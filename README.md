@@ -12,7 +12,7 @@ For the SMOTE algorithm, I got a balanced accuracy score of 0.69, precision scor
 
 ![SMOTE](https://github.com/Elewekeadanma/Credit_Risk_Analysis/blob/main/SMOTE.jpg)
 ---
-For the ClusterCentroids algorithm, I got a balanced accuracy score of 0.55; precision scores of 0.01 for high risk and 1 for low risk; recall scores of 0.68 for high risk and 0.41 for low risk applications.
+For the ClusterCentroids algorithm, I got a balanced accuracy score of 0.66; precision scores of 0.01 for high risk and 1 for low risk; recall scores of 0.68 for high risk and 0.41 for low risk applications.
 
 ![ClusterCentroids](https://github.com/Elewekeadanma/Credit_Risk_Analysis/blob/main/ClusterCentroids.jpg)
 ---
