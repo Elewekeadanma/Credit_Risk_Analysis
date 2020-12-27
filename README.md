@@ -17,8 +17,10 @@ For the ClusterCentroids algorithm, I got a balanced accuracy score of 0.55; pre
 ![ClusterCentroids](https://github.com/Elewekeadanma/Credit_Risk_Analysis/blob/main/ClusterCentroids.jpg)
 ---
 For the SMOTEENN algorithm, I got a balanced accuracy score of 0.65; precision score of 0.01 for high risk and 1 for low risk; recall scores of 0.72 for high risk and 0.57 for low risk.
-
-
+![SMOTEENN](https://github.com/Elewekeadanma/Credit_Risk_Analysis/blob/main/SMOTEENN.jpg)
+##  Summary
+For all the models, the precision for low risk application is high while the precision for high risk applications is low indicating a large number of false positives which indicates an unreliable classification.
+The SMOTEENN and RandomOverSampler algorithms had better recall scores than the ClusterCentroids and SMOTE algoritms for high risk applications.Higher recall scores are indicative of a smaller number of false negatives. I would not recommend any of the algorithms but if I had to pick at least one, I will pick either the SMOTEENN or RandomOverSampler algorithm.
 
 
 
