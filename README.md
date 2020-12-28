@@ -4,19 +4,19 @@ The purpose of this analysis is to use machine learning algorithms to predict cr
 In this project, 4 algorithms were used: RandomOverSampler, SMOTE, ClusterCentroids and SMOTEENN.
 
 ---
-For the RandomOverSampler algorithms, I got a balanced accuracy score of 0.65,precision scores 0f 0.01 for the high risk and 1 for the low risk; recall score of 0.73 for high risk and 0.57 for low risk applications.
+* For the RandomOverSampler algorithms, I got a balanced accuracy score of 0.65,precision scores 0f 0.01 for the high risk and 1 for the low risk; recall score of 0.73 for high risk and 0.57 for low risk applications.
 
 ![RandomOverSampler](https://github.com/Elewekeadanma/Credit_Risk_Analysis/blob/main/RandomOverSampler.jpg)
 ---
-For the SMOTE algorithm, I got a balanced accuracy score of 0.66, precision scores of 0.01 for high risk and 1 for low risk; recall scores of 0.63 for high risk and 0.68 for low risk applications.
+* For the SMOTE algorithm, I got a balanced accuracy score of 0.66, precision scores of 0.01 for high risk and 1 for low risk; recall scores of 0.63 for high risk and 0.68 for low risk applications.
 
 ![SMOTE](https://github.com/Elewekeadanma/Credit_Risk_Analysis/blob/main/SMOTE.jpg)
 ---
-For the ClusterCentroids algorithm, I got a balanced accuracy score of 0.55; precision scores of 0.01 for high risk and 1 for low risk; recall scores of 0.68 for high risk and 0.41 for low risk applications.
+* For the ClusterCentroids algorithm, I got a balanced accuracy score of 0.55; precision scores of 0.01 for high risk and 1 for low risk; recall scores of 0.68 for high risk and 0.41 for low risk applications.
 
 ![ClusterCentroids](https://github.com/Elewekeadanma/Credit_Risk_Analysis/blob/main/ClusterCentroids.jpg)
 ---
-For the SMOTEENN algorithm, I got a balanced accuracy score of 0.65; precision score of 0.01 for high risk and 1 for low risk; recall scores of 0.72 for high risk and 0.57 for low risk.
+* For the SMOTEENN algorithm, I got a balanced accuracy score of 0.65; precision score of 0.01 for high risk and 1 for low risk; recall scores of 0.72 for high risk and 0.57 for low risk.
 ![SMOTEENN](https://github.com/Elewekeadanma/Credit_Risk_Analysis/blob/main/SMOTEENN.jpg)
 ##  Summary
 For all the models, the precision for low risk application is high while the precision for high risk applications is low indicating a large number of false positives which indicates an unreliable classification.
